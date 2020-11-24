@@ -1,0 +1,110 @@
+header {
+    background-image: url('../img/netflix.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+    position: relative;
+    border-bottom: 8px solid #222222;
+
+}
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 50%, rgba(0,0,0,1) 100%);
+}
+
+header img {
+    width: 120px;
+}
+
+.story-container {
+    border-bottom: 8px solid #222222;
+    text-align: center;
+}
+
+footer
+{
+    border-top: 8px solid #222222;
+    
+}
+
+
+/* media */
+
+@media (max-width: 375px) { 
+
+    header h2 
+    {
+        font-size: 35px;
+    }
+
+    header h4
+    {
+        font-size: 25px;
+    }
+
+    header h5
+    {
+        font-size: 18px;
+    }
+
+    header
+    {
+        height: 600px;
+    }
+
+    .story-container h2
+    {
+        font-size: 35px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .story-container h4
+    {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .story-container h4
+    {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .soru h2
+    {
+        font-size: 25px;    
+    }
+
+    .soru h5
+    {
+        font-size: 20px;
+    }
+
+    .soru input
+    {
+        margin-top: 10px;
+        width: 150px !important;
+    }
+
+    .soru button
+    {
+        margin-top: 10px;
+        width: 150px !important;
+    }
+
+    footer .about4 
+    {
+        margin-left: 45px !important;
+    }
+
+}
